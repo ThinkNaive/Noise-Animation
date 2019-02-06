@@ -5,7 +5,9 @@
 
 ## usage:
 * 1. generate bmp files [%d.bmp] from [video.suffix] into folder [p]
-        example : ffmpeg ffmpeg -i video.suffix -s 640x480 -r 60 p/%d.bmp
+```bash
+example : ffmpeg ffmpeg -i video.suffix -s 640x480 -r 60 p/%d.bmp
+```
 * 2. revise mask2bin.cpp (// first bmp file) and (// 0001.bmp to 4383.bmp) in correspondence with bmp files that you generated before
         example : p/1.bmp to 15.bmp --> for (int i = 2; i <= 15; ++i)
 * 3. use make.bat to compile 2 applications
