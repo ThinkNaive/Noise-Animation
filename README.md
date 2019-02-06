@@ -1,5 +1,8 @@
 # Noise Animation
 
+## todo list:
+    1. optimize mask data struct to get smaller bin file and better performance.
+
 ## compile:
     make.bat
 
